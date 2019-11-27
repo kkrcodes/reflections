@@ -1,0 +1,33 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+	Adds a repository in the specified folder and Git tracks the files in it. Without initialization, Git cannot track the files in the folder.
+
+How is the staging area different from the working directory and the repository?
+What value do you think it offers?
+
+	Offers the freedom to choose which files go into the next commit so that the commit can be limited to one logical change. Also gives the freedom to not track certain files, and allows the developer to hold back certain changes, share specific changes with other collaborators, get feedback, and add the remaining changes later.
+
+How can you use the staging area to make sure you have one commit per logical
+change?
+
+	Add only the files related to the logical change to the staging area and commit them before making the next set of changes and adding them to the index.
+
+What are some situations when branches would be helpful in keeping your history
+organized? How would branches help?
+
+	Developing a new feature or a modified version of a current feature, fixing bugs, and for general experimentation. Branches would help with development, bug fixing, and experimentation without breaking the existing build.
+
+How do the diagrams help you visualize the branch structure?
+
+	Seeing how branches diverge from existing branches and merge with other branches, and keep track of commits with pointers to parent commits with reachability gives a deeper understanding of how branches work.
+
+What is the result of merging two branches together? Why do we represent it in
+the diagram the way we do?
+
+	The result is a repo that contains the changes (commits) made in both branches. It's represented that way because branches are just pointers to commits. Without branches, the commits would be lost (forever, after git's garbage collection runs) and cannot be accessed without knowing the commit IDs.
+
+What are the pros and cons of Git's automatic merging vs. always doing merges
+manually?
+
+	Pros: Takes care of obvious merges and saves time.
+	Cons: Cannot resolve conflicts and choose which version to keep.
