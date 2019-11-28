@@ -21,7 +21,7 @@ stored locally?
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
-    Fill in your answer here
+    Would collaborate using Google docs and drive, or Dropbox. It would be easier if it's a document and we want to see live changes or if the files will be updated rarely. It would be harder if there will be frequent updates, and different modifications and versions.
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
