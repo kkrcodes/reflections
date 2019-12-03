@@ -3,9 +3,7 @@ Reflections from the lessons taught in Udacity's [How to Use Git and GitHub](htt
 course.
 
 ## About
-I took the **_How to Use Git and GitHub_** course from Udacity, and as a practical approach to use version control, we were encouraged to 
-reflect on the concepts learned in each lesson of the course and commit the changes in a repository. This repository contains my
-reflections from the concepts I learned in the course.
+This repository is an exercise from Udacity's **_How to Use Git and GitHub_** course. To leverage reinforcement learning and practice using version control, we were encouraged to reflect on the concepts learned in each lesson of the course and commit the changes to a repository. This repository contains my reflections of the concepts taught in the course.
 
 ## License
 
